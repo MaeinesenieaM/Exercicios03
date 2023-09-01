@@ -7,7 +7,7 @@ int main ()
 //que imprima os valores de forma ascendente (do menor para o maior).
 	setlocale (LC_ALL, "Portuguese");
 
-	int lista [3], ordem [3];
+	int lista [3];
 	int hand;
 
 	printf ("DIGITE TRÊS NUMEROS PARA SEREM ORGANIZADOS EM ORDEM CRESENTE.\n\n");
