@@ -8,7 +8,7 @@ int main ()
 	setlocale (LC_ALL, "Portuguese");
 
 	int lista [3];
-	int hand;
+	int hand; //Valor temporario
 
 	printf ("DIGITE TRÊS NUMEROS PARA SEREM ORGANIZADOS EM ORDEM CRESENTE.\n\n");
 	printf ("A: "); scanf ("%d", &lista [0]);
@@ -23,7 +23,7 @@ int main ()
 			if ((lista [elem] - lista [prox]) > 0)
 			{
 				hand = lista [elem];
-				lista [elem] = lista [prox];
+				lista [elem] = lista [prox]; //esse resultado troca os valores de lugar
 				lista [prox] = hand;
 			}
 		}
